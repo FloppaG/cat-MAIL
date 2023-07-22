@@ -1,0 +1,44 @@
+html {
+    height: 100%;
+}
+Body {
+    background-color: #434343;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', Sans-Serif, Serif;
+}
+
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,6);
+    background-color: #1D1D1D;
+    border-radius: 10px;
+}
+
+.big-button {
+    background-color: #242B3B;
+    webkit-align-content: center;
+    width: 300px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.left {
+    webkit-align-content: left;
+}
+
+.right {
+    webkit-align-content: right;
+}
+
+.nav {
+    webkit-align-content: top;
+}
